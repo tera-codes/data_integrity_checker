@@ -34,7 +34,7 @@ def is_ngon_included(mesh):
         
 class OBJECT_OT_integrity_checker(bpy.types.Operator):
     bl_idname = "object.integrity_checker"
-    bl_label = "IntegrityChecker"
+    bl_label = "Integrity Checker"
     bl_description = "Inspect the selected object"
     bl_options = {"REGISTER"}
 
