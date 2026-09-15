@@ -1,0 +1,15 @@
+schema_version = "1.0.0"
+
+id = "data_integrity_checker"
+version = "0.1.0"
+name = "Data Integrity Checker"
+tagline = "Checks object states and unused data for integrity issues"
+maintainer = "tera"
+type = "add-on"
+website = "https://github.com/tera-codes/data_integrity_checker"
+
+blender_version_min = "5.0.0"
+
+license = [
+  "SPDX-License-Identifier : GPL-2.0-or-later",
+]

@@ -12,7 +12,7 @@ class VIEW3D_PT_hop_result(bpy.types.Panel):
             self.layout.label(text = line)
         self.layout.operator("object.data_checker")
         for line in context.scene.unused_data_checker.split("\n"):
-                    self.layout.label(text = line)
+            self.layout.label(text = line)
 
 
 def format_list(names):
@@ -142,5 +142,3 @@ def unregister():
     bpy.utils.unregister_class(VIEW3D_PT_hop_result)
     bpy.utils.unregister_class(OBJECT_OT_unused_data_checker)
     bpy.utils.unregister_class(OBJECT_OT_integrity_checker)
-
-register()
