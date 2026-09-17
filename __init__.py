@@ -89,7 +89,7 @@ class OBJECT_OT_integrity_checker(bpy.types.Operator):
 
 class OBJECT_OT_unused_data_checker(bpy.types.Operator):
     bl_idname = "object.data_checker"
-    bl_label =  "Unused data checker"
+    bl_label =  "Unused Data Checker"
     bl_description = "I'll check if there is any unused data"
     bl_options = {"REGISTER"}
 
